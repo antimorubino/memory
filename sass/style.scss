@@ -1,0 +1,120 @@
+$color1: #0065a9;
+$color2: #ef891b;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: $color2;
+}
+
+
+
+.contenuto {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: 50px;*/
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.topLogo {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topTitle {
+
+    padding: 10px 30px;
+    text-align: justify;
+
+    .Tlt1 {
+        color: $color1;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 24px;
+        text-align: justify;
+    }
+
+    .Tlt2 {
+        color: $color2;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+
+    hr {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: 0;
+        border-top: 1px solid $color2;
+    }
+
+}
+
+.testo {
+    text-align: justify;
+    color: #6f6f6f;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 0 40px;
+}
+
+.tltArancione {
+    color: $color2;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.txtArancione {
+    color: $color2;
+}
+
+.aggend {
+    td {
+        text-align: left;
+        padding: 10px;
+    }
+
+    .orario {
+        color: $color1;
+        font-weight: bold;
+    }
+}
+
+.nuvole2 {
+
+}
+
+.registrazione {
+    padding: 10px 30px;
+}
+
+.menufooter {
+    position: fixed;
+    bottom:0;
+    background: $color1;
+    color: #fff;
+    padding: 10px 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 40px;
+}
